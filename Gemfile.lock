@@ -1,0 +1,61 @@
+PATH
+  remote: /Users/joshskeen/code/rubyskill2/rubyskill
+  specs:
+    rubyskill (0.1.0)
+      combinatorics (>= 0.4.3)
+      dotenv
+      hashie (>= 3.4.3)
+      hashwithindifferentaccess (>= 0.1.1)
+      pry
+      sinatra (= 1.4.7)
+      sinatra-contrib (= 1.4.7)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    backports (3.6.8)
+    coderay (1.1.1)
+    combinatorics (0.4.3)
+    daemons (1.2.4)
+    dotenv (2.1.1)
+    eventmachine (1.2.0.1)
+    hashie (3.4.4)
+    hashwithindifferentaccess (0.1.1)
+    method_source (0.8.2)
+    multi_json (1.12.1)
+    pry (0.10.4)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    rack (1.6.4)
+    rack-protection (1.5.3)
+      rack
+    rack-test (0.6.3)
+      rack (>= 1.0)
+    sinatra (1.4.7)
+      rack (~> 1.5)
+      rack-protection (~> 1.4)
+      tilt (>= 1.3, < 3)
+    sinatra-contrib (1.4.7)
+      backports (>= 2.0)
+      multi_json
+      rack-protection
+      rack-test
+      sinatra (~> 1.4.0)
+      tilt (>= 1.3, < 3)
+    slop (3.6.0)
+    thin (1.7.0)
+      daemons (~> 1.0, >= 1.0.9)
+      eventmachine (~> 1.0, >= 1.0.4)
+      rack (>= 1, < 3)
+    tilt (2.0.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rubyskill!
+  thin
+
+BUNDLED WITH
+   1.10.6
